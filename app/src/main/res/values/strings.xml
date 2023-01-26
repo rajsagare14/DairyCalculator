@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DairyCalculator</string>
+    <string name="snfCalculator">Soluble Natural Fats(SNF)</string>
+    <string name="calculate">Calculate</string>
+    <string name="fat">Fat</string>
+    <string name="lr">Lactometer Reading</string>
+    <string name="temp">Temprature &#xb0;F</string>
 </resources>
