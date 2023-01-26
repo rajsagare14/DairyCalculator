@@ -22,7 +22,7 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal"
+            android:id="@+id/fatVal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -46,7 +46,7 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal2"
+            android:id="@+id/lrVal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -70,7 +70,7 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal3"
+            android:id="@+id/tempVal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -80,16 +80,17 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:backgroundTint="#FF9800"
+        android:text="@string/calculate"
         android:textSize="24sp" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:layout_margin="10dp"
         android:textSize="24sp" />
 </LinearLayout>

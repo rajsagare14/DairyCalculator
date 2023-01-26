@@ -20,14 +20,17 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/snfCalculator" />
+            android:text="@string/snfCalculator"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/snfCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="#FF9800"
             android:gravity="center"
-            android:text="@string/calculate" />
+            android:text="@string/calculate"
+            android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>
