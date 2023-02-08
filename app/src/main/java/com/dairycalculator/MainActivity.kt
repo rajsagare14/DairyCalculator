@@ -15,5 +15,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,SNFCalculator::class.java)
             startActivity(intent)
         }
+        val smpCalculator = findViewById<Button>(R.id.skimmedMilkProductionCalculator)
+        smpCalculator.setOnClickListener(){
+            val intent = Intent(this,SkimmedMilkProduction::class.java)
+            startActivity(intent)
+        }
     }
 }
