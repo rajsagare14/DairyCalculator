@@ -4,11 +4,14 @@
     <string name="smpCalculator">SMP Addition</string>
     <string name="creamAdditionCalculator">Cream Addition</string>
     <string name="creamProductionCalculator">Cream Production</string>
+    <string name="butterProductionCalculator">Butter Production</string>
     <string name="skimmedMilkProductionCalculator">Skimmed Milk Production</string>
     <string name="smpProductionCalculator">SMP Production</string>
     <string name="butterCalculator">Butter Production</string>
     <string name="calculate">Calculate</string>
     <string name="fat">Fat</string>
+    <string name="fatOfMilk">Fat of Milk</string>
+
     <string name="lr">Lactometer Reading</string>
     <string name="milkLiter">Milk(L)</string>
     <string name="creamKg">Cream(Kg)</string>
