@@ -35,5 +35,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,CreamProduction::class.java)
             startActivity(intent)
         }
+        val creamAdditionCalculator = findViewById<Button>(R.id.creamAdditionCalculator)
+        creamAdditionCalculator.setOnClickListener(){
+            val intent = Intent(this,CreamAddition::class.java)
+            startActivity(intent)
+        }
     }
 }

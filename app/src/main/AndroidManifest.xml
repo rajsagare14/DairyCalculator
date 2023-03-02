@@ -13,6 +13,20 @@
         android:theme="@style/Theme.DairyCalculator"
         tools:targetApi="31">
         <activity
+            android:name=".SMPProduction"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CreamAddition"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ButterProduction"
             android:exported="false">
             <meta-data

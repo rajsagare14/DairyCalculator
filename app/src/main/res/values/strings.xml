@@ -10,6 +10,7 @@
     <string name="butterCalculator">Butter Production</string>
     <string name="calculate">Calculate</string>
     <string name="fat">Fat</string>
+    <string name="creamFat">Cream Fat</string>
     <string name="fatOfMilk">Fat of Milk</string>
     <string name="expectedButterFat">Expected Butter Fat</string>
     <string name="creamFatToBeMaintained">Cream Fat to be Maintained</string>
