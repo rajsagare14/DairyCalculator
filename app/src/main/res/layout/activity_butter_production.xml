@@ -41,7 +41,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal"
+            android:id="@+id/milkInLiter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -63,11 +63,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="TextView"
+            android:text="@string/fatOfMilk"
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal2"
+            android:id="@+id/fatOfMilk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -89,11 +89,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="TextView"
+            android:text="@string/expectedButterFat"
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal3"
+            android:id="@+id/expectedButterFat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -110,15 +110,15 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/calculate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#FF9800"
             android:gravity="center"
-            android:text="Button" />
+            android:text="@string/calculate" />
 
         <TextView
-            android:id="@+id/textView21"
+            android:id="@+id/result"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"

@@ -25,5 +25,15 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,SMPAddition::class.java)
             startActivity(intent)
         }
+        val butterProductionCalculator = findViewById<Button>(R.id.butterCalculator)
+        butterProductionCalculator.setOnClickListener(){
+            val intent = Intent(this,ButterProduction::class.java)
+            startActivity(intent)
+        }
+        val creamProductionCalculator = findViewById<Button>(R.id.creamProductionCalculator)
+        creamProductionCalculator.setOnClickListener(){
+            val intent = Intent(this,CreamProduction::class.java)
+            startActivity(intent)
+        }
     }
 }
