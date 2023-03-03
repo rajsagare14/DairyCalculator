@@ -40,5 +40,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,CreamAddition::class.java)
             startActivity(intent)
         }
+        val SMPProductionCalculator = findViewById<Button>(R.id.smpProductionCalculator)
+        SMPProductionCalculator.setOnClickListener(){
+            val intent = Intent(this,SMPProduction::class.java)
+            startActivity(intent)
+        }
     }
 }

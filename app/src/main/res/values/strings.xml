@@ -21,5 +21,6 @@
     <string name="requiredSNF">Required SNF</string>
     <string name="existingSNF">Existing SNF</string>
     <string name="SNFSMP">SNF of SMP</string>
+    <string name="SNFMilk">SNF of Milk</string>
     <string name="temp">Temprature &#xb0;F</string>
 </resources>
